@@ -1,0 +1,436 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+}
+
+html{
+    background-color: black;
+}
+
+.nav{
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    font-size: large;
+    position: fixed;
+    z-index: 2;
+    background-color: black;
+}
+
+.nav a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    color: white;
+}
+
+.nav a:hover{
+ color: rgb(62, 197, 241);
+}
+
+
+
+.home-content{
+    color: rgb(62, 197, 241);
+    /* color: rgb(233, 173, 53); */
+    font-size: xx-large;
+    text-align: center;
+}
+
+.home-content h1 span{
+    color: white;
+}
+
+.image{
+    width: 40%;
+    height: 40%;
+    border-radius: 50%;
+}
+
+.home{
+    padding-top: 120px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.hire{
+    padding: 20px;
+    color: black;
+    cursor: pointer;
+    background-color:rgb(62, 197, 241); 
+    font-size: large;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.hire:hover{
+    text-decoration: none;
+}
+
+.about{
+    text-align: center;
+    color: rgb(62, 197, 241);
+    font-weight: 700;
+    font-size: 100px ;
+    margin-top: 100px;
+    padding-top: 50px;
+}
+
+.content{
+    margin-left: 70px;
+    margin-right: 70px;
+    text-align: center;
+    color: rgb(62, 197, 241);
+    font-size: x-large;
+}
+
+
+.about-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.skills{
+    text-align: center;
+    color: rgb(62, 197, 241);
+    font-weight: 700;
+    font-size: 80px ;
+    margin-top: 100px;
+    padding-top: 80px;  
+}
+
+
+.Tech-skills{
+    height: 30px;
+    width: 90%;
+    border-radius: 20px;
+    background-color: white;
+    margin-top: 10px;
+}
+
+.html{
+    width: 60%;
+    height: 30px;
+    border-radius: 20px;
+    background-color: rgb(62, 197, 241);
+    color: black;
+    text-align: start;
+}
+
+.HTML{
+    color: white;
+    margin-left: 15px;
+}
+
+.css{
+    width: 60%;
+    height: 30px;
+    border-radius: 20px;
+    background-color: rgb(62, 197, 241);
+    color: black;
+    text-align: start;
+}
+
+.CSS{
+    color: white;
+    margin-left: 20px;
+}
+
+.js{
+    width: 60%;
+    height: 30px;
+    border-radius: 20px;
+    background-color: rgb(62, 197, 241);
+    color: black;
+    text-align: start;
+}
+
+.JS{
+    color: white;
+    margin-left: 25px;
+}
+
+.mysql{
+    width: 60%;
+    height: 30px;
+    border-radius: 20px;
+    background-color: rgb(62, 197, 241);
+    color: black;
+    text-align: start;
+}
+
+.MYSQL{
+    color: white;
+    margin-left: 8px;
+}
+
+.python{
+    width: 80%;
+    height: 30px;
+    border-radius: 20px;
+    background-color: rgb(62, 197, 241);
+    color: black;
+    text-align: start;
+}
+
+.PYTHON{
+    color: white;
+}
+
+.ps{
+    width: 100%;
+    height: 30px;
+    border-radius: 20px;
+    background-color: rgb(62, 197, 241);
+    color: black;
+    text-align: start;
+}
+
+.PS{
+    color: white;
+    margin-left: 27px;
+}
+
+p{
+    padding-top: 7px;
+    padding-left: 10px;
+    font-weight: bold;
+    background-color: transparent;
+}
+
+.tech{
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+    padding-top: 50px;
+}
+
+.skills-content1{
+    width: 100%;
+    position: relative;
+    left: 40px;
+}
+
+.skills-content2{
+    width: 100%;
+    position: relative;
+    left: 40px; 
+}
+
+.logo{
+    margin-top: 30px;
+    height: 80px;
+    width: 80px;
+}
+
+.fa-teamspeak{
+    font-weight: bold;
+    font-size: 150px;
+}
+
+.speaking{
+    height: 300px;
+    padding-top: 25px;
+    width: 300px;
+    background-color: rgb(62, 197, 241);
+    border-radius: 25px;
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
+
+.speaking h3{
+    padding-top: 30px;
+}
+
+.fa-pen-nib{
+    font-weight: bold;
+    font-size: 150px;
+}
+
+.writing{
+    margin-top: 20px;
+    height: 300px;
+    padding-top: 25px;
+    width: 300px;
+    background-color: rgb(62, 197, 241);
+    border-radius: 25px;
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
+
+.writing h3{
+    padding-top: 30px;
+}
+
+.fa-book-open-reader{
+    font-weight: bold;
+    font-size: 150px;   
+}
+
+.fa-ear-listen{
+    font-weight: bold;
+    font-size: 150px;   
+}
+
+.reading{
+    height: 300px;
+    padding-top: 25px;
+    width: 300px;
+    background-color: rgb(62, 197, 241);
+    border-radius: 25px;
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
+
+.reading h3{
+    padding-top: 30px;
+}
+
+.listening{
+    margin-top: 20px;
+    height: 300px;
+    padding-top: 25px;
+    width: 300px;
+    background-color: rgb(62, 197, 241);
+    border-radius: 25px;
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
+
+.listening h3{
+    padding-top: 30px;
+}
+
+.communication{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    padding-top: 30px;
+}
+
+.star{
+    padding-top: 10px;
+}
+
+.life{
+    text-align: center;
+}
+
+.Adaptability{
+    height: 200px;
+    padding-top: 25px;
+    width: 350px;
+    background-color: rgb(62, 197, 241);
+    border-radius: 10px;
+}
+
+.Self-Awareness{
+    height: 200px;
+    padding-top: 25px;
+    width: 350px;
+    background-color: rgb(62, 197, 241);
+    border-radius: 10px;
+}
+
+.Adaptability h3{
+    font-size: xx-large;
+    padding-top: 30px;
+}
+
+.Self-Awareness h3{
+    font-size: xx-large;
+    padding-top: 30px;
+}
+
+.life{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 190px;
+}
+
+#Life h2{
+  padding-top: 160px;
+}
+
+.Social{
+    height: 200px;
+    padding-top: 50px;
+    width: 350px;
+    background-color: rgb(62, 197, 241);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.Social h3{
+    font-size: xx-large;
+    padding-top: 30px;
+}
+
+.form {
+    background: #1C1C1C; /* Dark gray for form container */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 100px;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  input {
+    width: 100%;
+    padding: 10px;
+    background-color: #2C2C2C; /* Darker gray for input background */
+    color: #FFFFFF; /* White text inside inputs */
+    border: 1px solid #444444; /* Subtle gray border */
+    border-radius: 4px;
+    font-size: 16px;
+  }
+
+  textarea{
+    width: 100%;
+    padding: 10px;
+    height: 200px;
+    background-color: #2C2C2C; /* Darker gray for input background */
+    color: #FFFFFF; /* White text inside inputs */
+    border: 1px solid #444444; /* Subtle gray border */
+    border-radius: 4px;
+    font-size: 16px;
+    resize:none;
+  }
+
+  input::placeholder, textarea::placeholder {
+    color: #AAAAAA; /* Light gray for placeholder text */
+  }
+
+  button {
+    padding: 10px 15px;
+    background-color: rgb(62, 197, 241); /* Vibrant red button */
+    color: #FFFFFF; /* White text on button */
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  button:hover {
+    background-color: #E63946; /* Slightly darker red on hover */
+  }
