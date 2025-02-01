@@ -321,9 +321,7 @@ p{
     padding-top: 10px;
 }
 
-.life{
-    text-align: center;
-}
+
 
 .Adaptability{
     height: 200px;
@@ -356,6 +354,8 @@ p{
     justify-content: space-around;
     align-items: center;
     padding-top: 190px;
+    text-align: center;
+    flex-wrap: wrap;
 }
 
 #Life h2{
