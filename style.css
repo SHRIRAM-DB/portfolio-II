@@ -434,3 +434,27 @@ p{
   button:hover {
     background-color: #E63946; /* Slightly darker red on hover */
   }
+
+  .project{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 100px;
+  }
+
+  .project1,.project2,.project3{
+    background-color: rgb(62, 197, 241);
+    padding: 60px;
+    border-radius: 30px;
+    
+  }
+
+  .project1 img,.project2 img,.project3 img{
+    border-radius: 10px;
+  }
+
+  .project1 h3,.project2 h3,.project3 h3{
+    text-align: center;
+    padding-top: 40px;
+    font-weight: bolder;
+    font-size: xx-large;
+  }
