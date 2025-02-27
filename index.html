@@ -17,7 +17,8 @@
 
   <body>
     <header>
-      <div class="nav">
+
+      <nav class="nav">
         <a href="#Home">Home</a>
         <a href="#About">About Me</a>
         <a href="#Tech">Tech Skills</a>
@@ -25,7 +26,23 @@
         <a href="#Life">Life Skills</a>
         <a href="#Project">Project</a>
         <a href="#Contact">Contact</a>
-      </div>
+      </nav>
+
+        <div class="hamburger">
+        <h3><em>Shriram</em></h3>
+        <i class="fa-sharp-duotone fa-solid fa-bars"></i>
+        </div>
+        <div class="humburger_nav">
+          <nav class="nav">
+            <a href="#Home">Home</a>
+            <a href="#About">About Me</a>
+            <a href="#Tech">Tech Skills</a>
+            <a href="#English">English Skills</a>
+            <a href="#Life">Life Skills</a>
+            <a href="#Project">Project</a>
+            <a href="#Contact">Contact</a>
+          </nav>
+        </div>
     </header>
 
     <main>
@@ -290,6 +307,13 @@
         </div>
       </div>
     </footer>
+
+    <script>
+      const hamburger = document.getElementById("humburger");
+      const humburger_nav = document.getElementById("humburger_nav");
+
+      humburger_nav.style.display = 'none';
+    </script>
   </body>
 </html>
 

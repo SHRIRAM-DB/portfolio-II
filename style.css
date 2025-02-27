@@ -36,7 +36,18 @@ html{
  color: rgb(62, 197, 241);
 }
 
+.hamburger{
+    display: none;
+}
 
+
+.hamburger_nav{
+    display: none;
+}
+
+.Nav{
+    display: none;
+}
 
 .home-content{
     color: rgb(62, 197, 241);
@@ -458,3 +469,115 @@ p{
     font-weight: bolder;
     font-size: xx-large;
   }
+
+  .project{
+    flex-wrap: wrap;
+  }
+
+@media (max-width: 1024px) {
+    .nav{
+        display: none;
+    }
+
+    .hamburger{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: white;
+        width: 100%;
+        text-align: end;
+        font-size: 50px;
+        padding: 20px;
+        position: fixed;
+        background-color: black;
+        z-index: 2;
+    }
+
+    .home{
+        padding-top: 170px;
+
+    }
+
+    .tech{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .humburger_nav{
+        display: block;
+        width: 100%;
+        display: flex;
+        position: fixed;
+        top: 14%;
+        z-index: 10;
+    }
+
+
+    .humburger_nav nav{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 50px;
+        border-radius: 10px;
+        background-color: rgb(62, 197, 241);
+    }
+
+    .nav:active{
+        color: black;
+    }
+    
+}
+
+@media (max-width: 1049px) {
+
+    .Self-Awareness{
+        margin-top: 40px;
+    }
+
+}
+
+@media (max-width: 1260px) {
+
+    .project3{
+        margin-top: 40px;
+    }
+
+}
+
+@media (max-width: 839.9px) {
+ 
+    .project2{
+        margin-top: 40px;
+    }
+
+}
+
+@media (max-width: 699.9px){
+ 
+    .Social{
+        margin-top: 40px;
+    }
+
+}
+
+@media (max-width: 768px){
+
+    .home{
+        padding-top: 200px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hire{
+        display: none;
+    }
+
+    .about-content img{
+        display: none;
+    }
+
+    .content{
+        padding-top: 120px;
+    }
+}
