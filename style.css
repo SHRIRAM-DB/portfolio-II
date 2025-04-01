@@ -36,12 +36,12 @@ html{
  color: rgb(62, 197, 241);
 }
 
-.hamburger{
+.Hamburger{
     display: none;
 }
 
 
-.hamburger_nav{
+.Hamburger_nav{
     display: none;
 }
 
@@ -479,7 +479,7 @@ p{
         display: none;
     }
 
-    .hamburger{
+    .Hamburger{
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -504,14 +504,12 @@ p{
     }
     
     .humburger_nav{
-        display: block;
+        display: none;
         width: 100%;
-        display: flex;
         position: fixed;
         top: 14%;
         z-index: 10;
     }
-
 
     .humburger_nav nav{
         position: absolute;
@@ -523,10 +521,11 @@ p{
         background-color: rgb(62, 197, 241);
     }
 
-    .nav:active{
+
+
+    .nav a:hover{
         color: black;
     }
-    
 }
 
 @media (max-width: 1049px) {

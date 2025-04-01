@@ -28,11 +28,11 @@
         <a href="#Contact">Contact</a>
       </nav>
 
-        <div class="hamburger">
+        <div class="Hamburger" id="hamburger">
         <h3><em>Shriram</em></h3>
         <i class="fa-sharp-duotone fa-solid fa-bars"></i>
         </div>
-        <div class="humburger_nav">
+        <div class="humburger_nav" id="humburger_nav">
           <nav class="nav">
             <a href="#Home">Home</a>
             <a href="#About">About Me</a>
@@ -305,14 +305,21 @@
             <button type="submit" id="submit">Submit Form</button>
           </form>
         </div>
-      </div>
+      </div> 
     </footer>
 
     <script>
-      const hamburger = document.getElementById("humburger");
-      const humburger_nav = document.getElementById("humburger_nav");
+        const hamburger = document.getElementById("hamburger");
+        const hamburger_nav = document.getElementById("humburger_nav");
 
-      humburger_nav.style.display = 'none';
+        hamburger.addEventListener('click', () => {
+          if (hamburger_nav.style.display === "block") {
+              hamburger_nav.style.display = "none";
+          } else {
+              hamburger_nav.style.display = "block";
+          }
+            console.log("Menu toggled");
+        });
     </script>
   </body>
 </html>
